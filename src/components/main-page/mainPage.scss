@@ -1,0 +1,64 @@
+
+.main-page {
+  height: 100vh;
+  background-image: url('../../img/airplane-2585923_1920.jpg');
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: auto;
+  opacity: 0.8;
+}
+
+.switch-scoreboards {
+  display: flex;
+  justify-content: center;
+
+  &__btn-departures {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 270px;
+    font-size: 16px;
+    font-weight: 600;
+    line-height: 60px;
+    margin-right: 110px;
+    padding: 0 20px;
+    border-radius: 10px 60px 10px 10px;
+    transition: .3s ease-in-out;
+    background: #fff;
+    color: #1eb7ee;
+    text-decoration: none;
+    text-transform: uppercase;
+    cursor: pointer;
+
+    &:hover {
+      border-radius: 10px 30px 10px 10px;
+      background: #1eb7ee;
+      color: #fff;
+    }
+  }
+
+  &__btn-arrivals {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 270px;
+    font-size: 16px;
+    font-weight: 600;
+    line-height: 60px;
+    padding: 0 20px;
+    margin-left: 110px;
+    border-radius: 60px 10px 10px 10px;
+    transition: .3s ease-in-out;
+    background: #fff;
+    color: #1eb7ee;
+    text-decoration: none;
+    text-transform: uppercase;
+    cursor: pointer;
+
+    &:hover {
+      border-radius: 30px 10px 10px 10px;
+      background: #1eb7ee;
+      color: #fff;
+    }
+  }
+}
