@@ -22,5 +22,7 @@ Builds the app for production to the build folder.\
 * Flexbox
 * Sass (Scss)
 * BEM methodology
+* SPA by react-router-dom
+* REST API
 
 ### Author Sudom Ihor
